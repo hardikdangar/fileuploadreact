@@ -30,42 +30,17 @@
                     <!-- fixed sidebar -->
                     <div class="left navbar-dark bg-dark text-white position-fixed h-100 align-self-start w-sidebar">
                         <h6 class="px-3 pt-3 bold">Files
-                            <div class="image-upload float-right">
-                                <label for="file-input">
-                                    Upload <img src="/Icon.png"/>
-                                </label>
-                                <input id="file-input" type="file"/>
+                            <div id="fileupload">
+                                <Fileupload></Fileupload>
                             </div>
                         </h6>
-                        <ul class="nav flex-column flex-nowrap text-truncate">
-                            <li class="nav-item active">
-                                <a class="nav-link bold" href="#" >Document #1</a>
-                                <a class="nav-link" href="#">Me, Dustin</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link bold" href="#" >Document #2</a>
-                                <a class="nav-link" href="#">Me, Dustin</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link bold" href="#" >Document #3</a>
-                                <a class="nav-link" href="#">Me, Dustin</a>
-                            </li>
+                        <ul class="nav flex-column flex-nowrap text-truncate" id="filetree">
+
                         </ul>
                     </div>
                 </div>
-                <div class="col p-3">
-                    <h3>Content..</h3>
-                    <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape
-        swag wolf squid tote bag. Tote bag cronut semiotics, raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade
-        ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh
-        synth chillwave meditation. Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+                <div class="col p-3" id="filereader">
 
-        <p>Ethical Kickstarter PBR
-        asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan
-        Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-        readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy
-        leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-        forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
                 </div>
             </div>
         </div>

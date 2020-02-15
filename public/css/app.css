@@ -11044,3 +11044,7 @@ h6.title {
   margin: 0;
 }
 
+#fileupload {
+  float: right;
+}
+
